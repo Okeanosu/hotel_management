@@ -1,0 +1,52 @@
+/* variables */
+:root {
+  --main-color: #d7b659;
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+@font-face {
+  font-family: font;
+  src: url("../fonts/UTM-Hanzel.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: font;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  background: transparent;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  transition: 0.3s;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}

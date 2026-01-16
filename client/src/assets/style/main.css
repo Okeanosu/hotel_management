@@ -1,0 +1,20 @@
+@import "./globals.css";
+
+/* layout */
+@import "./layout/aboutUs.css";
+@import "./layout/accomodation.css";
+@import "./layout/contact.css";
+@import "./layout/footer.css";
+@import "./layout/gallery.css";
+@import "./layout/header.css";
+@import "./layout/home.css";
+@import "./layout/menu.css";
+@import "./layout/news.css";
+@import "./layout/service.css";
+@import "./layout/tourTravel.css";
+@import "./layout/tourTravelDetails.css";
+
+/* components */
+@import "./components/slider.css";
+@import "./components/banner.css";
+@import "./components/sliderAccom.css";

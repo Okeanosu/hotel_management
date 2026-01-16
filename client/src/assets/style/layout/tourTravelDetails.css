@@ -1,0 +1,198 @@
+.tour-details {
+  margin-top: 140px;
+}
+
+.title-detail-tour {
+  position: relative;
+  z-index: 100;
+  background: #d7b659;
+  padding: 60px 0 50px;
+  text-align: center;
+}
+.title-detail-tour:after,
+.title-detail-tour:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 47px;
+  background: url(../img/bg-intro.png) top center;
+}
+.title-detail-tour:after {
+  top: -30px;
+  background-position: top center;
+}
+.title-detail-tour:before {
+  transform: rotateX(180deg);
+  bottom: -30px;
+}
+.titH1-dt {
+  margin: 0 0 10px;
+  font-family: "UTM-Hanzel";
+  font-size: 28px;
+  line-height: 36px;
+  color: #000;
+  text-transform: uppercase;
+}
+.title-detail-tour .code-tour {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 36px;
+  color: #000;
+}
+.list-detail-tour-avt {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.list-detail-tour-avt .avt-dt-i {
+  float: left;
+  width: calc(100% / 3);
+}
+.list-detail-tour-avt .avt-dt-i img {
+  width: 100%;
+  height: calc((100vw / 3) / 1.15);
+  object-fit: cover;
+}
+.page-detail-tour .titH2 {
+  font-size: 26px;
+  line-height: 36px;
+  padding-bottom: 8px;
+  margin: 0 0 15px;
+}
+.schedule {
+  overflow: hidden;
+  position: relative;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+.schedule table {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.schedule table tr td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 25px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.schedule table tr td:first-child {
+  width: 200px;
+  background: #f5f5f5;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  line-height: 24px;
+}
+.list-dotted {
+  font-size: 15px;
+  line-height: 30px;
+}
+.other {
+  padding: 50px 0;
+}
+.titH2-o {
+  position: relative;
+  padding: 0 15px;
+  display: table;
+  margin: auto;
+  font-size: 26px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-family: "UTM-Hanzel";
+}
+.titH2-o:before,
+.titH2-o:after {
+  content: "";
+  position: absolute;
+  height: 36px;
+  width: calc((1205px - 100%) / 2);
+}
+.titH2-o:before {
+  right: 100%;
+  background: url(../img/icon/bg-titH2-o.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100% 4px;
+}
+.titH2-o:after {
+  left: 100%;
+  background: url(../img/icon/bg-titH2-o2.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 100% 4px;
+}
+.list-other {
+  margin-top: 45px;
+  position: relative;
+}
+.list-other ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 -7.5px;
+}
+.list-other ul li {
+  float: left;
+  padding: 7.5px;
+  width: 20%;
+  height: calc(1220px / 5);
+}
+.list-other ul li .item {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.list-other ul li .item .avt {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.list-other ul li .item .avt img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.list-other ul li .item .desc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.35s;
+  opacity: 0;
+}
+.list-other ul li .item:hover .desc {
+  opacity: 1;
+}
+.list-other ul li .item .desc .desc-midle {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.list-other ul li .item .desc .desc-midle h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 24px;
+  transition: all 0.35s;
+  transform: translate(0, 15px);
+}
+.list-other ul li .item .desc .desc-midle h3 a {
+  color: inherit;
+}
+.list-other ul li .item:hover .desc .desc-midle h3 {
+  transform: none;
+}
+.list-other ul li .item .desc .desc-midle h3:hover {
+  color: #d7b659;
+}

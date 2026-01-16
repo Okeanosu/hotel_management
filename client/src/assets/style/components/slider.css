@@ -1,0 +1,21 @@
+/* .slick-prev {
+  left: 50px !important;
+  z-index: 100;
+  color: #cbab54;
+  font-size: 50px;
+}
+
+.slick-next {
+  right: 50px !important;
+  z-index: 100;
+  rotate: 360deg !important;
+  color: #cbab54;
+  font-size: 50px;
+}
+
+.slick-next::before,
+.slick-prev::before {
+  font-size: 50px !important;
+  background-color: #cbab54;
+  border-radius: 50%;
+} */

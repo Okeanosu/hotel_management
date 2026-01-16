@@ -1,0 +1,75 @@
+.sidebar {
+  background-color: #3b1738;
+  color: white;
+  height: 100%;
+  position: fixed;
+  width: 220px;
+
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #10d620;
+  }
+
+  .item {
+    align-items: center;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 10px 0 10px 20px;
+    padding: 10px 0;
+
+    svg {
+      margin-right: 10px;
+      font-size: 1.3rem;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .pages {
+    .pages-header {
+      cursor: pointer;
+      display: flex;
+      font-size: 1.1rem;
+      margin-left: 20px;
+      padding: 10px 0;
+      transition: all 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      span {
+        margin: 0 5px 0 10px;
+      }
+
+      svg {
+        font-size: 1.3rem;
+      }
+    }
+
+    .pages-list {
+      padding-left: 50px;
+
+      .page {
+        margin: 0;
+        transition: all 0.2s;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .logout{
+    cursor: pointer;
+
+    &:hover{
+      color: #ff2222;
+    }
+  }
+}
